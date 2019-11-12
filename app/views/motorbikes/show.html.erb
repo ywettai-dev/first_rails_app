@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Make:</strong>
+  <%= @motorbike.make %>
+</p>
+
+<p>
+  <strong>Model:</strong>
+  <%= @motorbike.model %>
+</p>
+
+<p>
+  <strong>Year:</strong>
+  <%= @motorbike.year %>
+</p>
+
+<%= link_to 'Edit', edit_motorbike_path(@motorbike) %> |
+<%= link_to 'Back', motorbikes_path %>
